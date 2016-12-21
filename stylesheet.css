@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, html* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #852627;
+	font-family: 'Slabo 27px', serif;
+}
+
+.fixedheader p {
+	margin: auto;
+}
+
+.fixedheader {
+	width: fill;
+	text-align: center;
+	color:#F6F6F6;
+	text-transform: uppercase;
+	letter-spacing: 25px;
+	font-weight: 100;
+	font-size: 20px;
+	font-family: 'Alegreya', serif;
+	padding: 20px 0px;
+	border-bottom: #B09293 2px solid;
+}
+
+.resumebody {
+	width: 75%;
+	margin: auto;
+	background-color: #F6F6F6;
+	border-radius: 10px;
+}
+
+.resume {
+	margin: 50px 0px;
+	padding: 10px;
+
+}
+
+.tabletitle {
+	text-align: center;
+	color: #B09293;
+	font-size: 30px;
+	font-family: 'Eczar', serif;
+	letter-spacing: 5px;
+}
+
+tr {
+	padding: 5px;
+}
+
+tr td {
+	text-align: left;
+	padding: 10px;
+	
+}
+
+.table_endcols {
+	font-family: 'Eczar', serif;
+	color: #852627;
+	width: 25%;
+}
+
+.leftcolborder {
+	border-right: #B09293 1px solid;
+}
+
+.rightcolborder {
+	border-left: #B09293 1px solid;
+	text-align: right;
+}
+
+#skills li {
+	display: inline-block;
+	padding: 15px;
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+#skills li:hover {
+	background-color: #BBB8B8;
+}
+
+footer {
+	padding-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+	vertical-align: middle;
+	width: fill;
+}
+
+.footer_wrap {
+	background-color: #B09293;
+	color: #F6F6F6;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	padding-top: 0px;	
+}
+
+.footer ul {
+	margin-bottom: 20px;
+}
+
+.footer li {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	margin: 30px;
+	padding-top: 30px;
+}
+
+.footer li a:hover {
+	filter: blur(2px);
+}
+
+.footertitle {
+	text-transform: uppercase;
+	color: #852627;
+	letter-spacing: 10px;
+	font-size: 25px;
+	font-family: 'Eczar', serif;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+#footertable {
+	color: #F6F6F6;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	width: fill;
+}
+
+.footer_wrap table li {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	width: 20%;
+	padding: 30px;
+}
